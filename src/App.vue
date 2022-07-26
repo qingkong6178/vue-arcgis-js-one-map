@@ -1,28 +1,48 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <BaseMap />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
-<style>
+<style lang="less">
+html,
+body,
 #app {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
+
+/* 滚动条优化 start */
+  ::-webkit-scrollbar{
+    width:8px;
+    height:8px;
+  }
+  ::-webkit-scrollbar-track{
+    background: #f6f6f6;
+    border-radius:2px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: #cdcdcd;
+    border-radius:2px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background: #747474;
+  }
+  ::-webkit-scrollbar-corner {
+    background: #f6f6f6;
+  }
+/* 滚动条优化 end */
 </style>

@@ -1,0 +1,27 @@
+/*
+参考教程：https://www.cnblogs.com/zousaili/p/9283582.html
+*/
+/* @font-face {
+  font-family: 'iconfont';  /* project id 1773176 
+  src: url('//at.alicdn.com/t/font_1773176_8hi2t2yrskp.eot');
+  src: url('//at.alicdn.com/t/font_1773176_8hi2t2yrskp.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1773176_8hi2t2yrskp.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1773176_8hi2t2yrskp.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1773176_8hi2t2yrskp.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1773176_8hi2t2yrskp.svg#iconfont') format('svg');
+} */
+@font-face {
+  font-family: 'iconfont';    /*project id 1773176 */
+  src: url('./font/iconfont.eot');
+  src: url('./font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('./font/iconfont.woff2') format('woff2'),
+  url('./font/iconfont.woff') format('woff'),
+  url('./font/iconfont.ttf') format('truetype'),
+  url('./font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;}
